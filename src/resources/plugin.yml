@@ -1,0 +1,9 @@
+name: StreakPlugin
+version: 1.1.2
+main: dev.zain.streakplugin.StreakPlugin
+api-version: '1.21'
+description: Tracks PvP kill streaks and spawns a death chest on player death.
+commands:
+  stats:
+    description: View your current and highest kill streak.
+    usage: /stats
